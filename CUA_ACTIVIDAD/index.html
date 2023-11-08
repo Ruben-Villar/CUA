@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagen/png" href="img/logo-removebg-preview.png" />
+    <title>Mundo Ecológico</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <!---->
+          <img src="img/logoempresa-removebg-preview.png" alt="Logo de la empresa" />
+          <span class="name-col">Mundo Ecológico</span>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="">SECCIONES</a></li    >
+            <li><a href="">RESIDENCIAS</a></li>
+            <li><a href="">PLANTAS</a></li>
+            <li><a href="">GALERIAS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="contenido-header">
+        <div class="contenedor-encabezado">
+            <div class="texto-encabezado">
+                <h1>Mundo Ecológico</h1>
+          
+            </div>
+
+            <img src="img/portada.jpg" class="image-below-menu" alt="">
+         
+        </div>
+    </div>
+    <section class="contenedor">
+    <div class="contenedor-items">
+      <div class="item">
+          <span class="titulo-item">Planta Carnivora</span>
+          <img src="img/plantacarnivora.jpg" alt="" class="img-item">
+          <span class="precio-item"> $22.80</span>
+          <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+          <span class="titulo-item">Tulipan</span>
+          <img src="img/tulipan.png" alt="" class="img-item">
+          <span class="precio-item">$45.00</span>
+          <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+          <span class="titulo-item">Margarita</span>
+          <img src="img/margarita.png" alt="" class="img-item">
+          <span class="precio-item">$67.00 </span>
+          <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+          <span class="titulo-item">Rosas</span>
+          <img src="img/rosas.png" alt="" class="img-item">
+          <span class="precio-item">$12.00</span>
+          <button class="boton-item">Agregar al Carrito</button>
+      </div>
+      <div class="item">
+          <span class="titulo-item">Árboles</span>
+          <img src="img/arboles.png" alt="" class="img-item">
+          <span class="precio-item">$1,200</span>
+          <button class="boton-item">Agregar al Carrito</button>
+      </div>
+  
+  </div>
+   <!-- Carrito de Compras -->
+   <div class="carrito" id="carrito">
+    <div class="header-carrito">
+        <h2>Tu Carrito</h2>
+    </div>
+
+    <div class="carrito-items">
+        <!-- 
+        <div class="carrito-item">
+            <img src="img/arboles.png" width="80px" alt="">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">Box Engasse</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$15.000,00</span>
+            </div>
+           <span class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+           </span>
+        </div>
+        <div class="carrito-item">
+            <img src="img/rosas.png" width="80px" alt="">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">Skin Glam</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$18.000,00</span>
+            </div>
+           <button class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+           </button>
+        </div>
+         -->
+    </div>
+    <div class="carrito-total">
+        <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total">
+                $120.000,00
+            </span>
+        </div>
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+    </div>
+</div>
+  </section>
+  <form  id="formulario"  class="formulario">
+    <h1 class="formulario__titulo">Contactanos</h1>
+    <input id="nombres" type="text" name="nombres" class="formulario__input">
+    <label  for="" class=" formulario__label">Nombre y Apellido</label>
+    <input id="telefono"   type="text" name="dni" class="formulario__input">
+    <label for="" class=" formulario__label">Número de DNI</label>
+    <input   id="email" type="email" name="email" class="formulario__input">
+    <label for="" class=" formulario__label">Correo</label>
+    <input  id="subject"  type="date" name="fechanacimiento" class="formulario__input">
+    <label for="" class=" formulario__label">Fecha de nacimiento</label>
+    <input  id="message"  type="number" name="codigo-postal" class="formulario__input">
+    <label for="" class=" formulario__label">Codigo postal</label>
+    <input  id="message"  type="text" name="comentario" maxlength="100" class="formulario__input">
+    <label for="" class=" formulario__label">Comentario</label>
+    <input  type="submit" class="formulario__submit">
+  </form>
+  <script src="js/restriccion.js"></script>
+  <script src="js/formulario.js"></script>
+  <script src="js/app.js" ></script>
+</section>
+<footer>
+  <a href="#">🛒Venta de Producto🛒</a>
+  <div class="redes">
+    <h3>Revisa nuestras redes para mas Compras 🛒</h3>
+    <ul>
+      <li>FB</li>
+      <li>IG</li>
+      <li>TW</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
